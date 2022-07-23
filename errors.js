@@ -2,7 +2,7 @@
 
 const snackSelection = 'Pretzels';
 
-if (snackSelection = 'Pretzels') {
+if (snackSelection === 'Pretzels') {
   console.log("That'll be $1, please!");
 }
 
@@ -16,5 +16,5 @@ function first () {
 function second () {
   third();
 }
-
+const third = 'Declaring a new variable.';
 first();
